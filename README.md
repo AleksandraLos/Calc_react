@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Lånekalkylator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Beskrivning
+Uppgiften består av att göra en lånekalkylator likt den som finns på zmarta.se. 
+Testet innefattar både HTML, CSS och Javascript för att du ska kunna visa dina kunskaper inom området.
 
-## Available Scripts
 
-In the project directory, you can run:
+### Instruktioner
+Med hjälp av ett skal av HTML så ber vi dig att göra en kalkylator så likt bilden nedan som möjligt. 
+Vi ser gärna att du använder Vue.js eller liknande för att lösa uppgiften. 
+Du får använda de hjälpmedel du känner att du vill och behöver, du behöver inte uppfinna hjulet på nytt.  
 
-### `npm start`
+![result.png](result.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Det finns vissa punkter som vi vill att du följer.
+* Standardvärde för lånebeloppet och återbetalningstid är 250 000 kr respektive 14 år.
+* Lånebeloppet ska vara mellan 5 000 och 600 000 kr.
+* Återbetalningstiden ska vara mellan 1 och 15 år.
+* Plus- och minussymbolerna ska öka respektive minska värdena.
+* Lånebeloppet ska minskas/ökas med 5 000 åt gången.
+* Återbetalningstiden ska ökas/minskas med 1 år åt gången.
+* I `getContent()` i `main.js` finns det fördefinierade värde som bör användas istället för de hårdkodade som finns. Lägg till fält om du känner att du behöver. 
+* Månadskostnaden ska beräknas med hjälp av medföljande formel i `main.js`. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vi vill att du gör ditt bästa men har full förståelse för att du inte hinner med allt under tidsramen. 
+Prioritera det som ska göras så att du står där med en så fullt fungerande lösning som möjligt när tiden är slut.
+Vi vill gärna höra vad du hade gjort annorlunda om du hade fått mer tid på dig. 
